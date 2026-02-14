@@ -13,11 +13,18 @@ import websockets
 
 from coinbase import jwt_generator
 from coinbase.api_base import APIBase, get_logger
-from coinbase.constants import (API_ENV_KEY, API_SECRET_ENV_KEY,
-                                SUBSCRIBE_MESSAGE_TYPE,
-                                UNSUBSCRIBE_MESSAGE_TYPE, USER_AGENT,
-                                WS_AUTH_CHANNELS, WS_BASE_URL, WS_RETRY_BASE,
-                                WS_RETRY_FACTOR, WS_RETRY_MAX)
+from coinbase.constants import (
+    API_ENV_KEY,
+    API_SECRET_ENV_KEY,
+    SUBSCRIBE_MESSAGE_TYPE,
+    UNSUBSCRIBE_MESSAGE_TYPE,
+    USER_AGENT,
+    WS_AUTH_CHANNELS,
+    WS_BASE_URL,
+    WS_RETRY_BASE,
+    WS_RETRY_FACTOR,
+    WS_RETRY_MAX,
+)
 
 logger = get_logger("coinbase.WSClient")
 

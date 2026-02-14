@@ -2,11 +2,16 @@ from typing import Any, Dict, Optional
 
 from coinbase.constants import API_PREFIX
 from coinbase.rest.types.futures_types import (
-    CancelPendingFuturesSweepResponse, GetCurrentMarginWindowResponse,
-    GetFuturesBalanceSummaryResponse, GetFuturesPositionResponse,
-    GetIntradayMarginSettingResponse, ListFuturesPositionsResponse,
-    ListFuturesSweepsResponse, ScheduleFuturesSweepResponse,
-    SetIntradayMarginSettingResponse)
+    CancelPendingFuturesSweepResponse,
+    GetCurrentMarginWindowResponse,
+    GetFuturesBalanceSummaryResponse,
+    GetFuturesPositionResponse,
+    GetIntradayMarginSettingResponse,
+    ListFuturesPositionsResponse,
+    ListFuturesSweepsResponse,
+    ScheduleFuturesSweepResponse,
+    SetIntradayMarginSettingResponse,
+)
 
 
 def get_futures_balance_summary(self, **kwargs) -> GetFuturesBalanceSummaryResponse:

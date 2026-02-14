@@ -1,8 +1,10 @@
 from typing import Any, Dict
 
 from coinbase.constants import API_PREFIX
-from coinbase.rest.types.payments_types import (GetPaymentMethodResponse,
-                                                ListPaymentMethodsResponse)
+from coinbase.rest.types.payments_types import (
+    GetPaymentMethodResponse,
+    ListPaymentMethodsResponse,
+)
 
 
 def list_payment_methods(self, **kwargs) -> ListPaymentMethodsResponse:

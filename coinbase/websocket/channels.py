@@ -1,8 +1,16 @@
 from typing import List
 
-from coinbase.constants import (CANDLES, FUTURES_BALANCE_SUMMARY, HEARTBEATS,
-                                LEVEL2, MARKET_TRADES, STATUS, TICKER,
-                                TICKER_BATCH, USER)
+from coinbase.constants import (
+    CANDLES,
+    FUTURES_BALANCE_SUMMARY,
+    HEARTBEATS,
+    LEVEL2,
+    MARKET_TRADES,
+    STATUS,
+    TICKER,
+    TICKER_BATCH,
+    USER,
+)
 
 
 def heartbeats(self) -> None:

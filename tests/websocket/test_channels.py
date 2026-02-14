@@ -6,9 +6,17 @@ from unittest.mock import AsyncMock, patch
 
 import websockets
 
-from coinbase.constants import (CANDLES, FUTURES_BALANCE_SUMMARY, HEARTBEATS,
-                                LEVEL2, MARKET_TRADES, STATUS, TICKER,
-                                TICKER_BATCH, USER)
+from coinbase.constants import (
+    CANDLES,
+    FUTURES_BALANCE_SUMMARY,
+    HEARTBEATS,
+    LEVEL2,
+    MARKET_TRADES,
+    STATUS,
+    TICKER,
+    TICKER_BATCH,
+    USER,
+)
 from coinbase.websocket import WSClient
 
 from ..constants import TEST_API_KEY, TEST_API_SECRET

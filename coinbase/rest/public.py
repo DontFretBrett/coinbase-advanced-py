@@ -1,11 +1,13 @@
 from typing import Any, Dict, List, Optional
 
 from coinbase.constants import API_PREFIX
-from coinbase.rest.types.product_types import (GetMarketTradesResponse,
-                                               GetProductBookResponse,
-                                               GetProductCandlesResponse,
-                                               GetProductResponse,
-                                               ListProductsResponse)
+from coinbase.rest.types.product_types import (
+    GetMarketTradesResponse,
+    GetProductBookResponse,
+    GetProductCandlesResponse,
+    GetProductResponse,
+    ListProductsResponse,
+)
 from coinbase.rest.types.public_types import GetServerTimeResponse
 
 

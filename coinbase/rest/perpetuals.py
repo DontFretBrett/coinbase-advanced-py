@@ -1,8 +1,12 @@
 from coinbase.constants import API_PREFIX
 from coinbase.rest.types.perpetuals_types import (
-    AllocatePortfolioResponse, GetPerpetualsPortfolioSummaryResponse,
-    GetPerpetualsPositionResponse, GetPortfolioBalancesResponse,
-    ListPerpetualsPositionsResponse, OptInOutMultiAssetCollateralResponse)
+    AllocatePortfolioResponse,
+    GetPerpetualsPortfolioSummaryResponse,
+    GetPerpetualsPositionResponse,
+    GetPortfolioBalancesResponse,
+    ListPerpetualsPositionsResponse,
+    OptInOutMultiAssetCollateralResponse,
+)
 
 
 def allocate_portfolio(
