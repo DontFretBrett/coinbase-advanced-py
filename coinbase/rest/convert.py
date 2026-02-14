@@ -1,11 +1,9 @@
 from typing import Any, Dict, Optional
 
 from coinbase.constants import API_PREFIX
-from coinbase.rest.types.convert_types import (
-    CommitConvertTradeResponse,
-    CreateConvertQuoteResponse,
-    GetConvertTradeResponse,
-)
+from coinbase.rest.types.convert_types import (CommitConvertTradeResponse,
+                                               CreateConvertQuoteResponse,
+                                               GetConvertTradeResponse)
 
 
 def create_convert_quote(

@@ -8,13 +8,8 @@ from requests.exceptions import HTTPError
 
 from coinbase import jwt_generator
 from coinbase.api_base import APIBase, get_logger
-from coinbase.constants import (
-    API_ENV_KEY,
-    API_SECRET_ENV_KEY,
-    BASE_URL,
-    RATE_LIMIT_HEADERS,
-    USER_AGENT,
-)
+from coinbase.constants import (API_ENV_KEY, API_SECRET_ENV_KEY, BASE_URL,
+                                RATE_LIMIT_HEADERS, USER_AGENT)
 
 logger = get_logger("coinbase.RESTClient")
 

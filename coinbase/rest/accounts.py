@@ -1,7 +1,8 @@
 from typing import Any, Dict, Optional
 
 from coinbase.constants import API_PREFIX
-from coinbase.rest.types.accounts_types import GetAccountResponse, ListAccountsResponse
+from coinbase.rest.types.accounts_types import (GetAccountResponse,
+                                                ListAccountsResponse)
 
 
 def get_accounts(

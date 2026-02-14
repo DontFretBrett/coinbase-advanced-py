@@ -1,12 +1,10 @@
 from typing import Any, Dict, List, Optional
 
 from coinbase.constants import API_PREFIX
-from coinbase.rest.types.product_types import (
-    GetBestBidAskResponse,
-    GetProductBookResponse,
-    GetProductResponse,
-    ListProductsResponse,
-)
+from coinbase.rest.types.product_types import (GetBestBidAskResponse,
+                                               GetProductBookResponse,
+                                               GetProductResponse,
+                                               ListProductsResponse)
 
 
 def get_products(

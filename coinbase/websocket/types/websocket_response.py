@@ -1,16 +1,11 @@
 from typing import List, Optional
 
 from coinbase.websocket.types.base_response import BaseResponse
-from coinbase.websocket.types.misc_types import (
-    L2Update,
-    UserOrders,
-    UserPositions,
-    WSCandle,
-    WSFCMBalanceSummary,
-    WSHistoricalMarketTrade,
-    WSProduct,
-    WSTicker,
-)
+from coinbase.websocket.types.misc_types import (L2Update, UserOrders,
+                                                 UserPositions, WSCandle,
+                                                 WSFCMBalanceSummary,
+                                                 WSHistoricalMarketTrade,
+                                                 WSProduct, WSTicker)
 
 
 class WebsocketResponse(BaseResponse):

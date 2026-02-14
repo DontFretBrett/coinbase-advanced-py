@@ -2,13 +2,9 @@ from typing import Any, Dict, Optional
 
 from coinbase.constants import API_PREFIX
 from coinbase.rest.types.portfolios_types import (
-    CreatePortfolioResponse,
-    DeletePortfolioResponse,
-    EditPortfolioResponse,
-    GetPortfolioBreakdownResponse,
-    ListPortfoliosResponse,
-    MovePortfolioFundsResponse,
-)
+    CreatePortfolioResponse, DeletePortfolioResponse, EditPortfolioResponse,
+    GetPortfolioBreakdownResponse, ListPortfoliosResponse,
+    MovePortfolioFundsResponse)
 
 
 def get_portfolios(

@@ -1,10 +1,8 @@
 from typing import Any, Dict, Optional
 
 from coinbase.constants import API_PREFIX
-from coinbase.rest.types.product_types import (
-    GetMarketTradesResponse,
-    GetProductCandlesResponse,
-)
+from coinbase.rest.types.product_types import (GetMarketTradesResponse,
+                                               GetProductCandlesResponse)
 
 
 def get_candles(

@@ -2,17 +2,15 @@ import uuid
 from typing import Any, Dict, List, Optional
 
 from coinbase.constants import API_PREFIX
-from coinbase.rest.types.orders_types import (
-    CancelOrdersResponse,
-    ClosePositionResponse,
-    CreateOrderResponse,
-    EditOrderPreviewResponse,
-    EditOrderResponse,
-    GetOrderResponse,
-    ListFillsResponse,
-    ListOrdersResponse,
-    PreviewOrderResponse,
-)
+from coinbase.rest.types.orders_types import (CancelOrdersResponse,
+                                              ClosePositionResponse,
+                                              CreateOrderResponse,
+                                              EditOrderPreviewResponse,
+                                              EditOrderResponse,
+                                              GetOrderResponse,
+                                              ListFillsResponse,
+                                              ListOrdersResponse,
+                                              PreviewOrderResponse)
 
 
 def generate_client_order_id() -> str:
